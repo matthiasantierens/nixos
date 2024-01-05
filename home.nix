@@ -58,6 +58,11 @@
   ];
   programs.zsh = {
     enable = true;
+    shellAliases = {
+      ll = "ls -l";
+      ts = "tig status";
+      update = "sudo nixos-rebuild switch";
+    };
     history = {
       size = 100000000000;
     };

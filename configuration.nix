@@ -77,7 +77,9 @@
     wireguard-tools
   ];
 
+  # Enviroment flags
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
+  environment.variables.EDITOR = "nvim";
 
 
   # This value determines the NixOS release from which the default
