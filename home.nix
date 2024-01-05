@@ -25,6 +25,7 @@
     htop
     jq
     kanshi
+    libgcc
     mako
     mpv
     ncdu
@@ -38,6 +39,7 @@
     psmisc
     pulseaudio
     ranger
+    ripgrep
     silver-searcher
     slurp
     spotify
