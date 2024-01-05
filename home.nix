@@ -5,56 +5,55 @@
   home.homeDirectory = "/home/matthias";
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [ 
-    polkit_gnome
-    grim
-    slurp
-    go
-    feh
-    google-chrome
-    firefox
-    spotify
-    pcmanfm
-    htop
-    tig
-    ranger
-    autojump
-    git
-    silver-searcher
     alacritty
-    hack-font
-    nerdfonts
-    font-awesome
-    arandr
-    psmisc
-    eza
+    autojump
     bat
-    sshuttle
-    fzf
-    swaylock
-    swayidle
-    wl-clipboard
-    mako
     dmenu
-    tmux
-    pavucontrol
-    tldr
-    playerctl
-    pulseaudio
-    nssTools
-    sway-contrib.grimshot
-    kanshi
-    zathura
-    gnumake
-    unzip
     dnsutils
-    tmate
-    jq
+    eza
+    feh
     file
+    firefox
+    font-awesome
+    fzf
+    git
+    gnumake
+    go
+    google-chrome
+    grim
+    hack-font
+    htop
+    jq
+    kanshi
+    mako
     mpv
     ncdu
-    whois
+    nerdfonts
+    nssTools
     open-sans
+    pavucontrol
+    pcmanfm
+    playerctl
+    polkit_gnome
+    psmisc
+    pulseaudio
+    ranger
+    silver-searcher
+    slurp
+    spotify
+    sshuttle
+    sway-contrib.grimshot
+    swayidle
+    swaylock
+    tig
+    tldr
+    tmux
+    unzip
+    whois
+    wl-clipboard
     wofi
+    #Work
+    slack
   ];
   programs.zsh = {
     enable = true;
