@@ -22,6 +22,13 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  networking.extraHosts =
+  ''
+    192.168.50.103 kobol
+    192.168.50.151 raspberry
+  '';
+
+
   # Set your time zone.
   time.timeZone = "Europe/Brussels";
 
@@ -78,12 +85,15 @@
   ];
 
   programs.steam = {
-  enable = true;
-};
+    enable = true;
+  };
 
   # Enviroment flags
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
   environment.variables.EDITOR = "nvim";
+
+  # Service management
+  services.openssh.enable = false;
 
 
   # This value determines the NixOS release from which the default
