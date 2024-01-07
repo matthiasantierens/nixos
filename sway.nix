@@ -10,7 +10,10 @@
     wrapperFeatures.gtk = true; # so that gtk works properly
   };
 
- # Enable sound with pipewire.
+  # Enable polkit
+  security.polkit.enable = true;
+
+  # Enable sound with pipewire.
   sound.enable = true;
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;

@@ -87,6 +87,21 @@
     wireguard-tools
   ];
 
+  # Add system-wide fonts
+  fonts.packages = with pkgs; [
+    fira-code
+    fira
+    cooper-hewitt
+    ibm-plex
+    jetbrains-mono
+    iosevka
+    # bitmap
+    spleen
+    fira-code-symbols
+    powerline-fonts
+    nerdfonts
+  ];
+
   programs.steam = {
     enable = true;
   };

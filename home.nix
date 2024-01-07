@@ -35,7 +35,6 @@
     pavucontrol
     pcmanfm
     playerctl
-    polkit_gnome
     psmisc
     pulseaudio
     ranger
