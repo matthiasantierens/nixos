@@ -9,11 +9,7 @@
     enable = true;
     wrapperFeatures.gtk = true; # so that gtk works properly
   };
-  #environment.loginShellInit = ''
-  #  if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-  #    exec sway
-  #  fi
-  #'';
+
  # Enable sound with pipewire.
   sound.enable = true;
   hardware.pulseaudio.enable = false;
