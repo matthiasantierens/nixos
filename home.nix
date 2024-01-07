@@ -10,6 +10,7 @@
     bat
     dmenu
     dnsutils
+    etcher
     eza
     feh
     file

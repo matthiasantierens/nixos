@@ -76,6 +76,7 @@
     gnome.adwaita-icon-theme
     gnomeExtensions.appindicator
     home-manager
+    polkit_gnome
     htop
     light
     lm_sensors
